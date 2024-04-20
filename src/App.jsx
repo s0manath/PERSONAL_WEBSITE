@@ -4,6 +4,7 @@ import Banner from './components/Banner'
 import About from './components/About'
 import Services from './components/Services'
 import './App.css'
+import Expertise from './components/Expertise'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
       <Banner/>
       <About/>
       <Services/>
+      <Expertise/>
     </>
   )
 }
