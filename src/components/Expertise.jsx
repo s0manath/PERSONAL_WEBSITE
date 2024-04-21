@@ -25,7 +25,7 @@ const Expertise= ()=>{
                 {/* text container */}
                     <div className="w-2/3 text-center space-y-4">
                     <h1 className="text-4xl font-bold ">I love these technologies</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum accusamus culpa iusto doloribus distinctio modi rem aut ad repellendus inventore sint, mollitia voluptates natus vel ab alias obcaecati esse quas?</p>
+                    <p>I specialize in developing scalable and secure backend systems and enterprise-grade applications. With its platform independence, extensive libraries, and strong community support, Java remains a cornerstone in crafting reliable and high-performance software solutions.</p>
                      <button className=" text-1xl px-4 py-2 bg-orange-500  rounded-full  shadow-lg">Hire Me</button>
                     </div>
                 </div>
