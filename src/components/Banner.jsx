@@ -26,6 +26,10 @@ const Banner =()=>{
 
     },[]);
 
+    const handleEmailButtonClick = () => {
+        window.location.href = "soma756126@gmail.com";
+    };
+
 
     return(
 
@@ -49,7 +53,7 @@ const Banner =()=>{
                   <div className="icons-container space-x-5">
                       <a href="https://www.facebook.com/somnath.mahapatra.395/"><i class="fa-brands text-4xl fa-facebook"></i></a>  
                       <a href="https://www.instagram.com/soma_na_th/?hl=en"><i class="fa-brands text-4xl fa-instagram"></i></a>
-                      <a href=""><i class="fa-brands text-4xl fa-youtube"></i></a>
+                      <a href="#" onClick={handleEmailButtonClick}><i class="fa-solid fa-envelope"></i></a>
                       <a href="https://www.linkedin.com/in/somanath-mohapatra-66a784227/"><i class="fa-brands text-4xl fa-linkedin"></i></a>
                       <a href="https://x.com/SomanathMohap20?t=qwZO9P9cpA7U5seTjA160w&s=08"><i class="fa-brands text-4xl fa-x-twitter"></i></a>        
                   </div>
