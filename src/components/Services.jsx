@@ -16,13 +16,13 @@ const Services =()=>{
                 <div className=" cursor-pointer hover:bg-gray-300  bg-slate-100 p-5 text-center shadow-lg rounded-xl service-1 space-y-4">
                     <i class=" text-5xl fa-brands fa-android"></i>
                     <h1 className="text-4xl">Android Development</h1>
-                    <p>Proficient in crafting intuitive Android applications with a focus on user experience and performance optimization, leveraging the latest tools and technologies to deliver innovative solutions.</p>
+                    <p>Proficient in crafting intuitive Android applications with a focus on performance optimization, leveraging the latest tools and technologies to deliver innovative solutions.</p>
                     <button className=" px-3 py-2 bg-orange-500 text-1xl rounded-full shadow-lg">Check</button>
                 </div>
                 <div className=" cursor-pointer hover:bg-gray-300 bg-slate-100 p-5 text-center shadow-lg rounded-xl service-1 space-y-4">
                     <i class=" text-5xl fa-solid fa-server"></i>
                     <h1 className="text-4xl">Backend Development</h1>
-                    <p>Specializing in robust backend development, adept at designing and implementing scalable APIs and services using cutting-edge frameworks and best practices, security, and efficiency in web applications.</p>
+                    <p>Specializing in backend development, adept at designing and implementing scalable APIs using cutting-edge frameworks, ensuring security and efficiency in web applications.</p>
                     <button className=" px-3 py-2 bg-orange-500 text-1xl rounded-full shadow-lg">Check</button>
                 </div>
             </div>
