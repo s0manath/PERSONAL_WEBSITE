@@ -43,18 +43,15 @@ const Banner =()=>{
                 <h2 className=' text-3xl'>
                     And I am  <span className="font-bold underline " ref={el}></span>
                 </h2>
-               <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-               Reprehenderit unde molestiae temporibus corrupti blanditiis, tempora quas
-                numquam placeat earum dolorem magni soluta ullam, quo quisquam aut neque
-                 architecto ducimus hic excepturi. Debitis voluptate incidunt deserunt,
-                  laborum similique atque aliquid. Veniam a consequatur earum minim
-                  a debitis ullam vitae quisquam officia minus!</p>
+               <p className=''>I am passionate about using technology to solve real-world problems.
+                                I am also a strong advocate for diversity and Inclusion in the techindustry.
+                                In my spare time ,I enjoy hiking,reading and spending time with my family</p>
                   <div className="icons-container space-x-5">
-                      <a href=""><i class="fa-brands text-4xl fa-facebook"></i></a>  
-                      <a href=""><i class="fa-brands text-4xl fa-instagram"></i></a>
+                      <a href="https://www.facebook.com/somnath.mahapatra.395/"><i class="fa-brands text-4xl fa-facebook"></i></a>  
+                      <a href="https://www.instagram.com/soma_na_th/?hl=en"><i class="fa-brands text-4xl fa-instagram"></i></a>
                       <a href=""><i class="fa-brands text-4xl fa-youtube"></i></a>
-                      <a href=""><i class="fa-brands text-4xl fa-linkedin"></i></a>
-                      <a href=""><i class="fa-brands text-4xl fa-x-twitter"></i></a>        
+                      <a href="https://www.linkedin.com/in/somanath-mohapatra-66a784227/"><i class="fa-brands text-4xl fa-linkedin"></i></a>
+                      <a href="https://x.com/SomanathMohap20?t=qwZO9P9cpA7U5seTjA160w&s=08"><i class="fa-brands text-4xl fa-x-twitter"></i></a>        
                   </div>
                <br/>
                 <a className= 'px-3 py-2 bg-orange-500 rounded-full shadow-lg' href="/contact">Contact Me</a>
