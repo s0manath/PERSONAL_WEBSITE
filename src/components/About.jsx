@@ -5,13 +5,15 @@ const About =()=>{
    const [data,setData]= useState({
         image:bannerImage,
         title:"java developer and Android developer",
-        desc1:`Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-        exercitationem, facilis veniam architecto maiores porro id quasi 
-        accusantium vitae! Numquam.`,
-        desc2:`Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
-        dolores nisi! Ratione ipsum dolores eius, soluta autem voluptas 
-        voluptates, iure cum odit cupiditate sunt tempora, eos architecto
-         dolor facere? Laudantium?`,
+        desc1:`As a skilled Java developer and frontend enthusiast,
+        I am passionate about creating dynamic web applications and
+        user interfaces that deliver exceptional experiences. With
+        a solid background in Java programming and proficiency in
+        frontend technologies such as HTML, CSS, and JavaScript,
+        I excel in developing responsive and visually appealing solutions. `,
+        desc2:`From building interactive web pages to optimizing performance, I leverage my expertise to deliver 
+        intuitive and engaging user interfaces. Explore my portfolio to see examples of my projects and discover 
+        how I combine Java backend development with frontend design to create impactful digital experiences.`,
          actionButton:{
             title:"Read More..",
             link:"/readmore",
