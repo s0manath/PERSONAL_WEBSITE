@@ -36,7 +36,7 @@ const Header = () => {
 });
     const handleDownloadPDF = () => {
     // Replace 'your-pdf-file.pdf' with the actual path to your PDF file
-    window.open('/PERSONAL_WEBSITE/src/assets/somanath.pdf', '_blank');
+    window.open('../assets/somanath.pdf', '_blank');
     };
 
 
