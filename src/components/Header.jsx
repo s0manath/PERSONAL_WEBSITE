@@ -31,9 +31,15 @@ const Header = () => {
         },
     ]);
     const [actionButton,setActionButton]=useState({
-            title:'HireMe',
+            title:'Download CV',
             link:'/hireme',
 });
+    const handleDownloadPDF = () => {
+    // Replace 'your-pdf-file.pdf' with the actual path to your PDF file
+    window.open('/PERSONAL_WEBSITE/src/assets/somanath.pdf', '_blank');
+    };
+
+
     return (
      <>
         <div className=" h-20 border main flex justify-between items-center px-16 bg-gray-100">
@@ -55,8 +61,8 @@ const Header = () => {
             </div>
             <div>
                 {/* Button */}
-                <a href={actionButton.link}  className="px-4 py-2 bg-orange-400 shadow rounded-full text-1xl ">{actionButton.title}
-                </a>
+                <button onClick={handleDownloadPDF} className="px-4 py-2 bg-orange-400 shadow rounded-full text-1xl">{actionButton.title}
+                </button>
             </div>
 
         </div>
