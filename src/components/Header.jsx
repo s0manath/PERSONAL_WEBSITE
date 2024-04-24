@@ -1,4 +1,5 @@
 import { useState } from "react";
+import myPdf from '../assets/somanath.pdf'
 
 const Header = () => {
 
@@ -36,7 +37,7 @@ const Header = () => {
 });
     const handleDownloadPDF = () => {
     // Replace 'your-pdf-file.pdf' with the actual path to your PDF file
-    window.open('../assets/somanath.pdf', '_blank');
+    window.open(myPdf, '_blank');
     };
 
 
