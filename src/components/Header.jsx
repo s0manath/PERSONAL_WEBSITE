@@ -46,29 +46,37 @@ const Header = () => {
             <div className="md:hidden flex items-center">
                 {/* Menu icon */}
                 <h1
-                    className="text-2xl cursor-pointer mx-4"
+                    className="text-2xl cursor-pointer mx-2"
                     onClick={() => setIsMenuOpen(true)}
-                >:::</h1>
+                >☰</h1>
             </div>
 
             {/* Mobile Menu */}
             {isMenuOpen && (
-                <div className="fixed top-0 left-0 w-full h-full bg-gray-900 bg-opacity-80 flex flex-col items-center justify-center z-50">
-                    <div className="absolute top-4 right-4">
+                <div className="fixed top-20 left-0 w-full h-10 bg-gray-900 bg-opacity-80 flex items-center justify-center z-50">
+                    <div className="absolute top-1 right-2">
                         <h1
-                            className="text-2xl text-white cursor-pointer"
+                            className="text-xl text-white cursor-pointer"
                             onClick={() => setIsMenuOpen(false)}
-                        >X</h1>
+                        >
+                            x
+                        </h1>
                     </div>
                     <div className="space-y-4">
                         {menuLink.map((link) => (
-                            <a key={link.id} href={link.link} className="text-white text-xl" onClick={() => setIsMenuOpen(false)}>
+                            <a
+                                key={link.id}
+                                href={link.link}
+                                className="text-white text-sm mx-2"
+                                onClick={() => setIsMenuOpen(false)}
+                            >
                                 {link.title}
                             </a>
                         ))}
                     </div>
                 </div>
             )}
+
         </div>
     );
 };
