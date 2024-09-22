@@ -25,7 +25,7 @@ const About = () => {
             <div className="main-container bg-gray-100 border py-9">
                 <h1 className="text-center py-16 text-3xl md:text-5xl underline font-bold">About Me</h1>
 
-                <div className="flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0 md:space-x-8 md:px-32 lg:px-32 px-4">
+                <div className="flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0 md:space-x-8 md:px-32 lg:px-32 px-8">
                     <div className="w-full flex justify-center md:w-1/3">
                         <img className="rounded-full shadow-lg w-48 h-48 md:w-96 md:h-96" src={data.image} alt="Somanath Mohapatra" />
                     </div>
